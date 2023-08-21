@@ -1,26 +1,26 @@
 @media (max-width: 1199px) {
   .header-top-section {
-    min-width: 972px;
+    min-width: 966px;
   }
   .top-section-centralize-container {
-    width: 972px;
+    width: 966px;
   }
   .header-search-section {
-    min-width: 972px;
+    min-width: 966px;
   }
 
   .search-section-centralize-container {
-    width: 972px;
+    width: 966px;
   }
   .header-search-input {
-    width: 500px;
+    width: 475px;
   }
 
-  .main-section {
-    min-width: 972px;
+  main {
+    min-width: 966px;
   }
   .main-centralize-container {
-    width: 972px;
+    width: 966px;
   }
 
   .search-section-centralize-container h1 {
@@ -44,10 +44,10 @@
     width: 636px;
   }
   .header-search-input {
-    width: 382px;
+    width: 378px;
   }
 
-  .main-section {
+  main {
     min-width: 636px;
   }
   .main-centralize-container {
@@ -74,10 +74,10 @@
     width: 530px;
   }
   .header-search-input {
-    width: 280px;
+    width: 272px;
   }
 
-  .main-section {
+  main {
     min-width: 530px;
   }
   .main-centralize-container {
