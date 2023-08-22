@@ -145,3 +145,8 @@
   line-height: 20px;
   color: #fff;
 }
+
+form {
+  display: flex;
+  flex-direction: row;
+}
