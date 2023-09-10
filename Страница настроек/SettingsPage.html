@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/styles-reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/header.css" rel="stylesheet" type="text/css" />
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <link href="css/adaptive.css" rel="stylesheet" type="text/css" />
+    <link href="css/fonts.css" rel="stylesheet" type="text/css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-top-section">
+        <div class="top-section-centralize-container">
+          <button class="login-button">
+            <img src="img\person.svg" />
+            <p>Войти</p>
+          </button>
+          <button class="new-ad-button">
+            <p>Новое объявлениие</p>
+            <img src="img\plus.svg" />
+          </button>
+        </div>
+      </div>
+      <div class="header-search-section">
+        <div class="search-section-centralize-container">
+          <h1>Доска объявлений</h1>
+
+          <button class="categories-button">
+            <img src="img\list-nested.svg" />
+            <p>Все категории</p>
+          </button>
+          <form>
+            <input
+              class="header-search-input"
+              type="text"
+              placeholder="Поиск по объявлениям"
+            />
+
+            <button class="header-search-button">
+              <p>Найти</p>
+              <img src="img\search.svg" />
+            </button>
+          </form>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="main-centralize-container">
+        <div class="settings">
+          <h3>Настройки</h3>
+          <form action="" method="">
+            <div class="container">
+              <label>
+                <p>Имя</p>
+                <input type="text" name="name" />
+              </label>
+            </div>
+
+            <div class="container">
+              <label>
+                <p>Номер телефона</p>
+                <input type="tel" name="phone" />
+              </label>
+            </div>
+
+            <br />
+            <label>
+              <p>
+                Адрес<span>(будет указываться в объявлениях по умолчанию)</span>
+              </p>
+              <input type="text" placeholder="Не указан" />
+            </label>
+            <br />
+            <button type="submit">Сохранить</button>
+          </form>
+        </div>
+        <div class="password">
+          <h3>Смена пароля</h3>
+          <form>
+            <label>
+              <p>Текущий пароль</p>
+              <input type="password" placeholder="Введите текущий пароль" />
+            </label>
+            <br />
+            <label>
+              <p>Новый пароль <span>(минимум 8 символов)</span></p>
+              <input type="password" placeholder="Введите новый пароль" />
+            </label>
+            <br />
+            <button type="submit">Изменить пароль</button>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

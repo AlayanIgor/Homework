@@ -1,0 +1,27 @@
+main {
+  display: flex;
+  justify-content: center;
+  min-width: 1296px;
+}
+.main-centralize-container {
+  width: 1296px;
+  margin-bottom: 80px;
+}
+
+.main h3 {
+}
+
+.main form p {
+}
+
+.main form input {
+}
+
+.main form .container {
+}
+
+.main form p span {
+}
+
+main form button {
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/styles-reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/header.css" rel="stylesheet" type="text/css" />
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <link href="css/adaptive.css" rel="stylesheet" type="text/css" />
+    <link href="css/fonts.css" rel="stylesheet" type="text/css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-top-section">
+        <div class="top-section-centralize-container">
+          <button class="login-button">
+            <img src="img\person.svg" />
+            <p>Войти</p>
+          </button>
+          <button class="new-ad-button">
+            <p>Новое объявлениие</p>
+            <img src="img\plus.svg" />
+          </button>
+        </div>
+      </div>
+      <div class="header-search-section">
+        <div class="search-section-centralize-container">
+          <h1>Доска объявлений</h1>
+
+          <button class="categories-button">
+            <img src="img\list-nested.svg" />
+            <p>Все категории</p>
+          </button>
+          <form>
+            <input
+              class="header-search-input"
+              type="text"
+              placeholder="Поиск по объявлениям"
+            />
+
+            <button class="header-search-button">
+              <p>Найти</p>
+              <img src="img\search.svg" />
+            </button>
+          </form>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="main-centralize-container">
+        <h3>Новое объявление</h3>
+        <form>
+          <label>
+            <p>Выберите категорию <span class="red">*</span></p>
+            <select
+              name="ad-category"
+              aria-placeholder="Нажмите, чтобы выбрать"
+            >
+              <option value="1">Категория 1</option>
+              <option value="2">Категория 2</option>
+              <option value="3">Категория 3</option>
+            </select>
+          </label>
+          <br />
+          <label>
+            <p>Название объявления <span class="red">*</span></p>
+            <input
+              type="text"
+              name="ad-title"
+              placeholder="Что хотите продать?"
+            />
+          </label>
+          <br />
+          <label>
+            <p>Описание</p>
+            <textarea
+              name="ad-description"
+              placeholder="Расскажите подробнее о товаре или услуге"
+            ></textarea>
+          </label>
+          <br />
+          <label>
+            <p>Адрес (местопроведения сделки) <span class="red">*</span></p>
+            <input
+              type="text"
+              name="adress"
+              placeholder="Начните вводить адрес"
+            />
+          </label>
+          <br />
+          <button class="add-image">Добавить картинки</button>
+          <span>Максимум 10 картинок в формате jpeg,png или heic</span>
+          <br />
+          <label>
+            <p>Цена</p>
+            <input type="text" name="ad-price" placeholder="0 ₽" />
+          </label>
+          <br />
+          <button type="submit">Разместить объявление</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
